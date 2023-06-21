@@ -1,4 +1,4 @@
-this version 1 of the project
+this version 1 of this project
 simple commands for git bash terminal
 git status (check status of git respository stages and commited)
 git init (initialize folder into git repository "donot run if already initialized")
@@ -30,4 +30,5 @@ git log --since=n.weeks(show since n number of weeks)
 git log --since=n.months(show since n number of months)
 git log --pretty=format:"%h -- %an"(shows hash short and author name)
 ae(author email) look in got log documentation in pretty format
-
+git restore --staged filename(to unstage file)
+git checkout -- filename (resotre to last stage to file/ undo chnages)
