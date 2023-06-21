@@ -33,3 +33,14 @@ ae(author email) look in got log documentation in pretty format
 git restore --staged filename(to unstage file)
 git checkout -- filename (resotre to last stage to file/ undo chnages)
 git checkout -f (restores all files in to last commited/ unmodifies all files)
+git remote add remoteNAme githubWeblink(adds  git repository in github)
+git remote (checks remote working repository)
+git remote -v (shows remote repository)
+git push -u remoteName master (push all repository in github)
+if ssh key not applies in git then
+ssh-keygen -t remfilename -b 4096 -C "your email in github"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_remfilename
+tail ~/.ssh/id_remfilename.pub(gives ssh keys copy and paspe in new ssh new authuciation in github setting ssh keys)
+and then
+git push -u remoteName master
