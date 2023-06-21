@@ -32,3 +32,4 @@ git log --pretty=format:"%h -- %an"(shows hash short and author name)
 ae(author email) look in got log documentation in pretty format
 git restore --staged filename(to unstage file)
 git checkout -- filename (resotre to last stage to file/ undo chnages)
+git checkout -f (restores all files in to last commited/ unmodifies all files)
