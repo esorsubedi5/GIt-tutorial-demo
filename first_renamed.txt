@@ -1,0 +1,17 @@
+this version 1 of the project
+simple commands for git bash terminal
+git status (check status of git respository stages and commited)
+git init (initialize folder into git repository "donot run if already initialized")
+rm -rf .git (deletes git repository)
+git add filename.file_type(stage individual files)
+git add --all (stages all files)
+git add . (stages all files)
+git commit -m "commit text" (commits staged files in git respository)
+git commit "commit text"(opens commit terminal)
+git log (shows all commit history)
+git clone weblink (clones all repositoty into your computer from github repository)
+git clone weblink foldername (clones but as foldername you give)
+touch filename(linux command to create any file)
+touch .gitignore(create gitignore to ignore not required file to commit ot stage)
+git diff (comapres working directory with staging directory)
+git diff --staged (comapres staging directory with commited resposotory)
